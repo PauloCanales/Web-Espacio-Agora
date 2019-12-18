@@ -3,6 +3,9 @@
  * @copyright 2016 PixelCog, Inc.
  * @license MIT (https://github.com/pixelcog/parallax.js/blob/master/LICENSE)
  */
+app.get('/', function(req,res) {
+  res.send(browserRefresh('index.html'));
+});
 
 ;(function ( $, window, document, undefined ) {
 
