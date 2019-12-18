@@ -179,8 +179,10 @@ h4.subtitulo{
     background-repeat: repeat;  */ 
     color: white;
     
-    
-    
+    background-image: url("https://i.imgur.com/BqskaAf.jpg") !important;
+    background: 45%;
+    background-attachment: fixed;
+    background-position: center;
     
     -webkit-box-shadow: inset 0px 5px 20px rgba(0, 0, 0, 0.4);
     -moz-box-shadow:    inset 0px 5px 20px rgba(0, 0, 0, 0.4);
@@ -233,7 +235,7 @@ h4.subtitulo{
     -moz-box-shadow:    inset 0px 15px 20px rgba(0, 0, 0, 0.4);
     box-shadow:         inset 0px 5px 20px rgba(0, 0, 0, 0.4),inset 0px -5px 20px rgba(0, 0, 0, 0.4);
     
-    background-image: url("/img/BG/madera2.jpg");
+    background-image: url("https://i.imgur.com/JiEByOy.jpg");
     background-position: 28% 0%;
     background-repeat: repeat; 
     background-size: 30%;
