@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:700, 700i');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+#Locales .espacio{
+    /*margin: 15px 20px; /*MArgen entremedio*/
+    
+}
+#Locales figure{
+    position: relative;
+    float: left;
+	overflow: hidden;
+	height: auto;	
+	text-align: center;
+	cursor: pointer;    
+	font-family: 'Lobster', cursive;   
+    width: 100%;
+    padding: 0;
+    border: 3px solid #292b2c;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    /*box-shadow: 0 0 1px 5px black;*/
+}
+#Locales .titulo{
+    background: rgba(26, 27, 28, 0.9) !important;    
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    -webkit-backface-visibility: hidden;
+    padding: 15px 0;
+    padding-bottom: 15px !important;
+    font-family: 'Lato';
+}
+.titulo h2{
+    margin-bottom: 0px !important;
+    font-weight: 700;    
+}
+.no-paddingL{    
+    /*box-shadow: 0px 0 1px 5px black;*/
+}
+.texto-cartas{
+    width: 100%;     
+    text-align: center; /*horiz. center text*/    
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#Locales figure img{
+    position: relative;
+	display: block;	
+    min-height: 100%;
+	max-width: 100%; 
+}
+
+
+#Locales figure figcaption { /*textp*/
+    top: 50%;
+	padding: 2em;
+	color: #fff;	
+	font-size: 30px;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+
+#Locales figure figcaption::before,
+#Locales figure figcaption::after {
+	pointer-events: none;
+}
+
+#Locales figure figcaption,
+#Locales figure figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+    
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+#Locales figure figcaption > a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+
+#Locales figure h2 {
+	font-weight: 300;   
+}
+
+#Locales figure h2 span {
+	font-weight: 800;
+    
+}
+
+#Locales figure h2,
+#Locales figure p {
+	margin: 0;    
+    font-size: 50px;
+}
+
+#Locales figure p {
+    letter-spacing: 1px;
+	font-size: 33px;
+    padding-bottom: 5%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/*---------------*/
+/***** Ming *****/
+/*---------------*/
+
+figure.effect-ming {	
+    background: black;
+    -webkit-backface-visibility: hidden;
+	
+}
+
+figure.effect-ming img {
+    opacity: 0.95 !important; 
+	-webkit-transition: opacity 0.35s;
+	transition: opacity 0.35s;
+    -webkit-backface-visibility: hidden;
+	
+}
+
+figure.effect-ming figcaption::before { /*cuadradito blanco */
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	bottom: 20px;
+	left: 20px;
+	border: 2px solid #fff;
+    border-radius: 10px;
+	box-shadow: 0 0 0 50px rgba(255,255,255,0.2);
+	content: '';
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale3d(1.4,1.4,1);
+	transform: scale3d(1.4,1.4,1);
+}
+
+figure.effect-ming h2 {
+	margin: 20% 0 10px 0;
+	-webkit-transition: 0.35s;
+    -webkit-transform: 0.35s;
+	transition: transform 0.35s; 
+    -webkit-backface-visibility: hidden;
+    
+}
+
+figure.effect-ming p {
+	padding: 0 30px;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s;
+    -webkit-transform: 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+    -webkit-backface-visibility: hidden;
+    
+}
+
+figure.effect-ming:hover h2 {
+	-webkit-transform: scale(0.9);
+	transform: scale(0.9);    
+    
+}
+figcaption {
+    padding: 10% 0px !important;
+    -webkit-backface-visibility: hidden;
+}
+figcaption .titulo{
+    background: rgba(0, 0, 0, 0.35) !important; 
+    font-size: 30px;
+    padding: 20px;
+    -webkit-backface-visibility: hidden;
+}
+figure.effect-ming:hover figcaption::before,
+figure.effect-ming:hover p {
+	opacity: 1;
+	-webkit-transform: scale3d(1,1,1);
+	transform: scale3d(1,1,1);    
+}
+
+figure.effect-ming:hover figcaption {
+	background-color: rgba(58,52,42,0);
+        
+}
+
+figure.effect-ming:hover img {
+    opacity: 0.5 !important; 
+    
+}
+figure.effect-ming:hover figcaption .titulo{
+    background: rgba(0, 0, 0, 0.2) !important;      
+}
+
+
+
+@media (max-width: 767px){
+    
+    #Locales figure{
+    position: relative;
+    float: left;
+	overflow: hidden;
+	height: auto;	
+	text-align: center;
+	cursor: pointer;    
+	font-family: 'Raleway', Arial, sans-serif;    
+    width: 100%;        
+}
+    .tarjetas1{
+        padding: 20px 10px !important;
+    }
+    
+    
+}
+@media (max-width:1440px){
+    .titulo h2{
+    font-size: 20px;    
+    }
+    #Locales figure{
+    position: relative;
+    float: left;
+	overflow: hidden;
+	height: auto;	
+	text-align: center;
+	cursor: pointer;    
+	font-family: 'Lobster', cursive;   
+    width: 100%;
+    padding: 0;
+    border: 3px solid #292b2c;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    /*box-shadow: 0 0 1px 5px black;*/
+    }
+    #Locales figure p {
+    letter-spacing: 1px;
+	font-size: 22.2px;
+    padding-bottom: 5%;
+    padding-left: 0px;
+    padding-right: 0px;
+    }
+}
+
+/* Media queries */
+/*@media screen and (max-width: 50em) {
+	.content {
+		padding: 0 10px;
+		text-align: center;
+	}
+	.grid figure {
+		display: inline-block;
+		float: none;
+		margin: 10px auto;
+		width: 100%;
+	}
+} */

@@ -1,0 +1,663 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:700, 700i');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url(/Fonts/Malaga%20Regular.ttf);
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900');
+
+@font-face {
+    font-family: 'hola';
+    src: url('/Fonts/Malaga%20Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.logoGrande{
+    position:relative;
+    width: 30%;    
+    margin-top:-10%;    
+    
+}
+.subLogo{
+    margin-top: 20px;
+    font-size: 50px !important;
+}
+body{
+    overflow-x: hidden;
+    /*font-family: 'Architects Daughter', cursive;*/
+    font-family: 'Lato';
+    color: #dddddd;/*#333333;*/    
+}
+.subtitulo{
+    animation-duration: 3s;
+    animation-delay: 1.2s;    
+}
+.heading{
+    animation-duration: 3s;
+    animation-delay: 0.5s;    
+}
+.navbar{
+    border: 15px solid transparent;    
+    font-family: 'Lobster', cursive;
+    font-size: 22px;
+    padding: 0px 0px !important;
+    letter-spacing: 3px;
+    background: rgba(0, 0, 0, .9) !important;
+    text-shadow:1px 3px 5px black;
+    transition: all 0.8s;
+    display: flex;
+    
+}
+.on {
+    display: flex;
+	background-color: rgba(0, 0, 0, 0.9) !important;   	
+    transition: all 0.8s;
+    padding: 0px 0px !important;
+}
+.img-barra{ /*Imagen Barra sin bajar*/
+    width: 100%; 
+    transition: all 0.3s ease;
+    display:block;
+    margin:auto;
+}
+.chico{
+    width: 70% !important;
+    margin-top: 0px;
+    transition: all 0.5s ease;
+    display:block;
+    margin:auto;
+    
+}
+.navbar-nav li{
+    padding-right: 0.7rem;    
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+    padding-top: .8rem;
+    outline:none;
+}
+
+.navbar-dark .navbar-nav .nav-link.active, /** Mouse encima y selección **/
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #f4c95d;      
+    
+}
+.heading-underline{
+    width: 5rem;
+    height: .2rem;
+    background-color: #fdb54e; 
+    margin: 0 auto 2rem;
+}
+#PresentacionART .heading-underline{
+    width: 25rem;
+    height: .2rem;
+    background-color: #fdb54e; 
+    margin: 0 auto 2rem;
+}
+#PresentacionART{    
+    height: 100vh;
+    background-image: url("/img/BG/ItalarteNegro.jpg");
+    background-attachment: fixed;    
+    background-repeat: repeat;    
+    background-size: cover;
+    background-position: center top;
+     
+}
+#PresentacionART .texto{
+    top: 40%;    
+    position: absolute;     
+    z-index: 5;
+    text-shadow: 1.2px 1.2px 1px black;
+}
+#PresentacionART h2{
+    font-size: 170px;
+    font-weight: 600;
+    font-family: 'hola';
+    letter-spacing: 3px;
+}
+#PresentacionART h3{
+    font-size: 25px;
+    letter-spacing: 5px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#serviciosART{
+    /* 
+border-top: 5px solid #efbc4d;
+    border-bottom: 5px solid #efbc4d;
+*/
+}
+.lineaEnmarcaciones{
+    border-bottom: 3px solid #000;
+}
+#serviciosART .enmarcaciones{
+    background-color: #0c0c0c;
+    padding: 7%;
+    text-align: justify;
+    
+}
+#serviciosART .enmarcaciones .heading-underline{
+    background-color: #f0ad4e;
+    width: 9rem;
+    height: .25rem;    
+    margin: 2rem 0 1.5rem;    
+}
+#serviciosART .pinturas{
+    background-color: #000;
+    padding: 7%;
+    text-align: justify;
+}
+#serviciosART .pinturas .heading-underline{
+    background-color: #f0ad4e;
+    width: 9rem;
+    height: .25rem;    
+    margin: 2rem 0 1.5rem;    
+}
+#serviciosART .text-izq h2{
+    font-weight: 700;
+    font-size: 40px;
+}
+#serviciosART .text-izq p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+#serviciosART .text-der h2{
+    font-weight: 700;
+    font-size: 40px;    
+}
+#serviciosART .text-der p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+#Descrip{
+    background-color: #0c0c0c;    
+}
+
+.enmarcacionesFondo{
+    background-image: url(/img/Espacio/Arte/Pinturas/Enmarcaciones.jpg);        
+    background-repeat: no-repeat;    
+    background-size: cover;
+    max-height: 550px;   
+}
+.pinturasFondo{
+    background-image: url(/img/Espacio/Arte/Pinturas/pinturas2.jpg);        
+    background-repeat: no-repeat;    
+    background-size: cover;
+    max-height: 550px;
+    background-position: 0 -40;
+}
+#Descrip .entrada{
+    background-image: url(/img/Espacio/Arte/img2.jpg);        
+    background-repeat: no-repeat;    
+    background-size: cover;
+    height: 90vh;
+    background-position: -130 0;    
+}
+#Descrip .logo{
+    margin-top: 15%;
+    width: 20%;
+    margin-bottom: 15px;
+}
+#Descrip h1{
+    font-size: 65px;
+    margin-bottom: 15px;        
+}
+#Descrip p{
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.entry{
+    opacity: 0;
+}
+.borde{
+    padding: 0 !important;
+    border: 2px solid #000; 
+    border-right: 2px solid #000;
+    border-left: 2px solid #000;
+    border-bottom: 2px solid #000; 
+}
+.img1{
+    width: 100%;
+    height: 100%;
+}
+#Restauracion{
+    background-color: #000;      
+    border-bottom: 3px solid #000;
+}
+#Restauracion .rest{
+    padding: 0;    
+}
+.heading-underline2{
+    width: 10rem;
+    height: .2rem;
+    background-color: #fdb54e; 
+    margin: 0 auto 2rem;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+.heading-underline3{
+    width: 10rem;
+    height: .2rem;
+    background-color: #fdb54e; 
+    margin: 0 auto 2rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#Restauracion h1{
+    font-weight: 900;
+    font-size: 35px;    
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#Restauracion p{
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.despues{
+    width: 100%;
+}
+.antes{
+    width: 100%;
+}
+.bordeCla{
+    padding: 0 !important;
+    border-top: 0px !important; 
+    border-right: 2px solid #0c0c0c;
+    border-left: 2px solid #0c0c0c;
+    border-bottom: 3px solid #0c0c0c;   
+}
+#clases{
+    background-color: #0c0c0c;    
+}
+.taller{
+    border-bottom: 2px solid #0c0c0c;
+}
+#clases h1{
+    font-weight: 900;
+    font-size: 35px;    
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;    
+}
+#clases p{
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #fff;
+}
+.alum{
+    padding: 0 !important;
+}
+.alumno{
+    width: 100%;
+}
+
+#Contacto{
+    background-color: #000;
+    padding-bottom: 3%;
+}
+#Contacto .heading{
+    font-weight: 900;
+    font-size: 35px;    
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 1%;    
+}
+#Contacto .heading1{
+    font-weight: 900;
+    font-size: 35px;    
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 15px;
+}
+.redes-sociales img{
+    width: 80%;
+    transition: 0.5s;
+}
+.redes-sociales img:hover{
+    -webkit-transform: scale3d(1,1,1);
+	transform: scale3d(1.1,1.1,1);
+    transition: 0.5s;
+}
+.padding-localRS{
+    padding: 0 500px;
+    padding-bottom: 50px;
+}
+#Contacto .heading-underline{
+    width: 3rem;
+    height: .2rem;
+    background-color: #fdb54e;    
+    margin-bottom: 30px;
+}
+#info .heading-underline{
+    width: 3rem;
+    height: .2rem;
+    background-color: #fdb54e;    
+    margin-bottom: 30px;
+}
+#Contacto .padding-local{
+    padding: 0 300px;
+}
+#Contacto .margen{
+    height: 50px;
+}
+#Contacto h3{
+    padding-top: 2px;
+    font-size: 35px;
+    
+}
+#contacto .informacion{
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+#Contacto .sub{
+       text-align: center;
+}
+#Contacto a{
+    color: #c4c4c4;
+    font-size: 22px;
+}
+#Contacto p{
+    font-size: 22px;
+}
+.telefono{
+    -webkit-transform: rotate(-260deg);
+    transform: rotate(-260deg);
+}
+.whatschico{
+    font-size: 25px;
+}
+.btn-ubicacion{
+    background-color: #fed136;
+    border-color: #fed136;
+    font-size: 25px;
+    font-weight: 700;    
+    text-shadow:1px 1px 5px black;
+    padding: 10px 0px;
+    color: white !important;
+}
+.btn-ubicacion:hover{
+    background-color: #cea835;
+    border-color: #cea835;
+}
+.btn-ubicacion:active{    
+    box-shadow: none !important; 
+    background-color: #af8f2b !important;
+    border-color: #af8f2b !important;    
+}
+footer{
+    background-color: #0c0c0c; /*#40474e;*/
+    color: white;
+    
+}
+footer img{   
+    height: 50px;
+    margin: 1rem 0;
+}
+@media (max-width: 767px){
+    .chico{
+    width: 50% !important;
+    margin-top: 0px;
+    }
+    #Contacto .padding-local{
+    padding: 0 10px;
+    }
+    .logoGrande{
+    position:relative;
+    width: 80%;    
+    margin-top:-30%;    
+    }
+    .subLogo{
+    margin-top: 20px;
+    font-size: 25px !important;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    }
+    #PresentacionART .heading-underline{
+    width: 8rem;
+    height: .2rem;
+    background-color: #fdb54e; 
+    margin: 0 auto 2rem;
+    }
+    #PresentacionART{        
+    z-index: -1;    
+    }
+    #PresentacionART h2{
+    font-size: 75px;
+    font-weight: 600;    
+    }
+    #PresentacionART h3{
+    font-size: 18px;
+    letter-spacing: 5px;
+    margin-left: 20%;
+    margin-right: 20%;
+    }
+    .enmarcacionesFondo{
+    background-image: url(/img/Espacio/Arte/Pinturas/Enmarcaciones.jpg);        
+    background-repeat: no-repeat;    
+    background-size: cover;
+    min-height: 200px;    
+    }
+    .pinturasFondo{
+    background-image: url(/img/Espacio/Arte/Pinturas/pinturas2.jpg);        
+    background-repeat: no-repeat;    
+    background-size: cover;
+    min-height: 200px;
+    background-position: 0 0;
+    border-bottom: 3px solid #000;    
+    }
+    #Descrip .entrada{    
+    background-image: url(/img/Espacio/Arte/img2.jpg);        
+    background-repeat: no-repeat;    
+    background-size: cover;    
+    max-height: 200px;    
+    padding: 0 !important;
+    background-position: 0 -30;       
+    border-bottom: 3px solid #000;  
+    }
+    .galeria{
+        background-color: #0c0c0c;
+    }    
+    #Descrip .logo{
+    margin-top: 7%;
+    width: 45%;
+    margin-bottom: 15px;
+    }
+    #serviciosART .text-izq h2{
+    font-weight: 700;
+    font-size: 25px;
+    }
+    #serviciosART .text-izq p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    }
+    #serviciosART .text-der h2{
+    font-weight: 700;
+    font-size: 25px;    
+    }
+    #serviciosART .text-der p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    }    
+    .heading-underline2{
+    margin-left: 0%;
+    margin-right: 0%;
+    }
+    .heading-underline3{
+    margin-left: 0%;
+    margin-right: 0%;
+    }
+    #serviciosART .enmarcaciones .heading-underline{
+    margin: 1rem 0 1.5rem;    
+    }
+    #serviciosART .pinturas .heading-underline{
+    margin: 1rem 0 1.5rem;    
+    }
+    #Descrip h1{
+    font-size: 45px;
+    margin-bottom: 15px;
+    }
+    #Descrip p{
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    margin-left: 0%;
+    margin-right: 0%;
+    }
+    #Restauracion h1{
+    margin-top: 5%;
+    font-weight: 900;
+    font-size: 25px;    
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+#Restauracion p{
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+#clases h1{
+    margin-top: 5%;
+    font-weight: 900;
+    font-size: 35px;    
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 0%;
+    margin-right:0%;    
+}
+#clases p{
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    margin-left: 0%;
+    margin-right:0%;
+    color: #fff;
+}
+    
+}
+@media (min-width: 768px) and (max-width:960px){
+    .navbar{
+    border: 15px solid transparent;    
+    font-family: 'Lobster', cursive;
+    font-size: 16px;
+    padding: 0px 0px !important;
+    letter-spacing: 3px;
+    background: rgba(0, 0, 0, .9) !important;
+    text-shadow:1px 3px 5px black;
+    transition: all 0.8s;
+    display: flex;
+    
+}
+.on {
+    display: flex;
+	background-color: rgba(0, 0, 0, 0.9) !important;   	
+    transition: all 0.8s;    
+}
+.img-barra{ /*Imagen Barra sin bajar*/
+    width: 70%; 
+    transition: all 0.3s ease;  
+    margin-top: 0px;    
+}
+.navbar-nav li{
+    padding-right: 0.7rem;    
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+    padding-top: .8rem;
+    outline:none;
+}
+
+.navbar-dark .navbar-nav .nav-link.active, /** Mouse encima y selección **/
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #f4c95d;      
+    
+}
+.heading-underline{
+    width: 5rem;
+    height: .2rem;
+    background-color: #fdb54e; 
+    margin: 0 auto 2rem;
+}
+    #serviciosART .text-izq h2{
+    font-weight: 700;
+    font-size: 30px;
+    }
+    #serviciosART .text-izq p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    }
+    #serviciosART .text-der h2{
+    font-weight: 700;
+    font-size: 30px;
+    text-align: left; 
+    }
+    #serviciosART .text-der p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    }
+    #Contacto .padding-local{
+    padding: 0 10px;
+    }
+    #Descrip .entrada{
+    background-repeat: no-repeat;    
+    background-size: cover;
+    height: 30 !important;
+    background-position: -330 0;
+    padding: 0;
+    }
+    .entry{
+        width: 100%;
+        opacity: 1;
+    }
+}
+@media (max-width: 1440px){
+    #Descrip .logo{
+    margin-top: 15px !important;
+    width: 20%;
+    margin-bottom: 15px;
+    }
+    #serviciosART .enmarcaciones .heading-underline{
+    background-color: #f0ad4e;
+    width: 9rem;
+    height: .25rem;    
+    margin: 0.5rem 0 1.5rem;    
+    }
+    #serviciosART .pinturas .heading-underline{
+    background-color: #f0ad4e;
+    width: 9rem;
+    height: .25rem;    
+    margin: 0.5rem 0 1.5rem;    
+    }
+    #serviciosART .enmarcaciones{
+    background-color: #0c0c0c;
+    padding: 6%;
+    text-align: justify;
+    }
+    #serviciosART .pinturas{
+    background-color: #0c0c0c;
+    padding: 6%;
+    text-align: justify;
+    }
+    .pinturasFondo{
+    background-image: url(/img/Espacio/Arte/Pinturas/pinturas2.jpg);        
+    background-repeat: no-repeat;    
+    background-size: cover;
+    max-height: 550px;
+    background-position: 0 0;
+    }
+}

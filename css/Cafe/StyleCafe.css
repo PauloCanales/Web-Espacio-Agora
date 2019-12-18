@@ -1,0 +1,145 @@
+
+@import url('https://fonts.googleapis.com/css?family=Grand+Hotel');
+.checked {
+  color: orange;
+}
+.estrellas{
+    margin-top: -10px;
+    padding-left: 56px;
+}
+.imagenes-espacio{
+    padding: 0px !important;
+}
+.opiniones{
+    padding-bottom: 0px !important;
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:40%; /*AJUSTA TAMAÑO DEL MAPA*/
+    height:0;   
+}
+.borde-mapa{
+    height: 100%;
+    position: relative;
+}
+.map-responsive iframe{    
+    height:100% !important;
+    width:100% !important;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+/*-- Navbar --*/
+.img-inicio{
+    height: 35%;
+    padding-bottom: 20px;
+}
+.navbar{
+    border: 15px solid transparent;    
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    padding: 25px 0px;
+    letter-spacing: 3px;
+    background: rgba(0, 0, 0, .2) !important;
+    text-shadow:1px 3px 5px black;
+    transition: all 0.8s;
+    
+}
+
+.on {
+    display: flex;
+	background-color: rgba(0, 0, 0, 0.7) !important;   
+	padding: 0px 0px !important;
+    transition: all 0.8s;    
+    
+}
+.img-barra{ /*Imagen Barra sin bajar*/
+    width: 120%; 
+    transition: all 0.3s ease;      
+}
+
+.chico{
+    width: 70% !important;
+    margin-top: 0px;
+    transition: all 0.5s ease;    
+}
+
+.navbar-nav li{
+    padding-right: 0.7rem;    
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+    padding-top: .8rem;
+    outline:none;
+}
+
+.navbar-dark .navbar-nav .nav-link.active, /** Mouse encima y selección **/
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #f4c95d !important;      
+    
+}
+
+/*--Slider--*/
+.carousel-item{ /*Tamaño de la imagen en toda la pantalla*/
+  height: 100vh;
+}
+
+
+.carousel-item {
+    background-position: center top!important;
+}
+.carousel-fade .active.carousel-item-left, 
+.carousel-fade .active.carousel-item-prev, 
+.carousel-fade .carousel-item-next, 
+.carousel-fade .carousel-item-prev,
+.carousel-fade .carousel-item.active{
+  -webkit-transform: none;
+ transform: none;
+}
+
+
+.carousel-caption{
+    position: absolute;        
+    font-size: 30px;
+    color: #c49b63;
+    top: 15%;
+}
+#menu{
+    background-image: url("/images/madera5.jpg");
+    background-attachment: fixed;   
+    background-size: 100%;
+}
+.carousel-caption h5{
+    font-size: 80px;
+    display: block;
+    font-family: "Great Vibes", cursive;
+    color: #f4c95d;
+    line-height: 1;    
+    z-index: 1;    
+}
+.carousel-caption h4{    
+    font-size: 18px;
+    padding-bottom: 48px;
+    font-weight: 300;
+    font-family: "Poppins", Arial, sans-serif;
+}
+.carousel-caption h1{
+    line-height: 1.5;
+    color: #fff;
+    font-weight: 400;
+    font-family: "Josefin Sans", Arial, sans-serif !important;
+    text-transform: uppercase;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+.carousel-indicators li{
+    width: 8px !important;
+    height: 8px !important;
+    border-radius: 100% !important;
+    margin: 120px 5px !important;
+    
+}

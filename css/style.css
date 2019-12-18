@@ -1,0 +1,656 @@
+@import url('https://fonts.googleapis.com/css?family=Grand+Hotel');
+@import url('https://fonts.googleapis.com/css?family=Lato:700, 700i');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+
+body{
+    overflow-x: hidden;
+    /*font-family: 'Architects Daughter', cursive;*/
+    font-family: 'Lato';
+    color: #262626;/*#333333;*/
+}
+a{
+    outline:none !important;
+}
+#carga{
+    height: 100vh;
+}
+.btn-inicio{
+    font-size: 50px;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.btn-inicio:hover{
+    -webkit-transform: scale3d(1,1,1);
+	transform: scale3d(1.1,1.1,1);
+    transition: 0.3s;
+}
+.margen{
+    height: 60px;
+}
+.parallax-window-galeria {
+    border-top: 2px solid #fdb54e;
+    border-bottom: 2px solid #fdb54e;
+    height: 200px;
+    background: transparent;
+}
+.parallax-window-locales {
+    border-top: 2px solid #fdb54e;
+    border-bottom: 2px solid #fdb54e;
+    height: 200px;
+    background: transparent;
+}
+/*-- Navbar --*/
+
+.navbar{
+    border: 15px solid transparent;    
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    padding: 25px 0px;
+    letter-spacing: 3px;
+    background: rgba(0, 0, 0, .4) !important;
+    text-shadow:1px 3px 5px black;
+    transition: all 0.8s;
+    
+}
+
+.on {
+    display: flex;
+	background-color: rgba(0, 0, 0, 0.7) !important;   
+	padding: 0px 0px !important;
+    transition: all 0.8s;    
+    
+}
+.img-barra{ /*Imagen Barra sin bajar*/
+    width: 120%; 
+    transition: all 0.3s ease;  
+    
+}
+
+.chico{
+    width: 70% !important;
+    margin-top: 0px;
+    transition: all 0.5s ease;
+    
+}
+
+.navbar-nav li{
+    padding-right: 0.7rem;    
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+    padding-top: .8rem;
+    outline:none;
+}
+
+.navbar-dark .navbar-nav .nav-link.active, /** Mouse encima y selección **/
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #f4c95d;      
+    
+}
+.to-top { 	
+	position: fixed; 
+	bottom: 20px; 
+	right: 50px; 
+	text-decoration: none; 
+	color: #FFCA1A; 
+	background: transparent; 	 
+	display: none;
+    filter: drop-shadow(0px 2px 1px #795E20);
+    font-size: 70px;
+    transition: all 0.3s;
+}
+.to-top:hover{ 
+	color: #ffdc12; 
+	background: transparent;    
+    transition: all 0.3s;
+}
+/*--Slider--*/
+.carousel-item{ /*Tamaño de la imagen en toda la pantalla*/
+  height: 100vh;
+}
+
+
+.carousel-item {
+    background-position: center top!important;
+}
+.carousel-fade .active.carousel-item-left, 
+.carousel-fade .active.carousel-item-prev, 
+.carousel-fade .carousel-item-next, 
+.carousel-fade .carousel-item-prev,
+.carousel-fade .carousel-item.active{
+  -webkit-transform: none;
+ transform: none;
+}
+
+.carousel-caption{
+    position: absolute;
+    top: 38%;
+    text-transform: uppercase;
+}
+.carousel-caption h1{
+    font-size: 3.8rem;    
+    font-weight: 700;
+    width: 100%;
+    right: 0;
+    left: 0;
+    text-shadow: 7px 6px 15px black;
+    padding-bottom: 1rem;
+}
+.carousel-caption h3{
+    
+}
+.carousel-indicators li{
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    margin: 0 5px;
+}
+.btn-lg{
+    border-width: medium;
+    border-radius: 0;
+    font-weight: 700;
+    font-size: 20px; 
+    /*background: #e7b23b;*/
+    border-radius: 5px;
+}
+
+h2.heading{
+    font-size: 65px;       
+    padding-top: 35px;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 2px;    
+    
+}
+h4.subtitulo{
+    font-size: 26px;    
+}
+.heading-underline{
+    width: 5rem;
+    height: .2rem;
+    background-color: #fdb54e; 
+    margin: 0 auto 2rem;
+}
+/*-- Nosotros --*/
+#Nosotros{    
+	/*background-image: url("/img/BG/vintage-concrete.png");
+    background-repeat: repeat;  */ 
+    color: white;
+    
+    
+    
+    
+    -webkit-box-shadow: inset 0px 5px 20px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow:    inset 0px 5px 20px rgba(0, 0, 0, 0.4);
+    box-shadow:         inset 0px 5px 20px 0px rgba(0, 0, 0, 0.4);
+    
+}
+#Nosotros .fondo{    
+    padding-bottom: 150px;
+}
+#Nosotros .header{
+    box-shadow: none;
+    
+}
+#Nosotros .header-bot{
+    box-shadow: none;
+    transform: rotate(180deg);
+    width: 100%;
+}
+#Nosotros .padding-local{
+    text-shadow: 2px 2px 0px #161616, -1px -1px 10px black;
+    
+}
+#Nosotros h2{
+    font-size: 100px;
+    text-shadow: 3px 3px 10px #161616, -3px -3px 10px #161616;
+}
+#Nosotros p{
+    line-height: 35px;
+	margin: 15px 0px 10px;
+    font-size: 27px;
+    font-weight: 600;
+    text-align: justify;
+    text-justify: inter-word;        
+}
+.blur{
+    background: rgba(0, 0, 0, .25) !important;    
+    border-radius: 50px;    
+}
+
+/*-- Locales --*/
+#Locales h2.heading,
+#Locales h4.subtitulo{
+    text-shadow: 3px 3px 10px #161616, -3px -3px 10px #161616;
+}
+#Locales{        
+    color: white;
+            
+    -webkit-box-shadow: inset 0px 15px 20px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow:    inset 0px 15px 20px rgba(0, 0, 0, 0.4);
+    box-shadow:         inset 0px 5px 20px rgba(0, 0, 0, 0.4),inset 0px -5px 20px rgba(0, 0, 0, 0.4);
+    
+    background-image: url("/img/BG/madera2.jpg");
+    background-position: 28% 0%;
+    background-repeat: repeat; 
+    background-size: 30%;
+    /*background-attachment: fixed;*/
+    
+    
+}
+.panel-izq{
+    background-image: url("/img/Modulos/panel-izq.png");
+    background-size: 10%;
+    background-repeat: repeat; 
+    
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+    background-size: auto 100%;
+    border: 6px solid #241709;
+    
+
+}
+.fondo-modulo{
+    background-image: url("/img/Modulos/fondo.png");
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    height: 100%;
+}
+.secciones{
+   width: 100%;
+}
+.pizarra{
+    width: 100%;
+    
+}
+.modulos{
+    background-color: white;
+    -webkit-box-shadow: inset 10px -2px 22px -9px rgba(0,0,0,0.92);
+-moz-box-shadow: inset 10px -2px 22px -9px rgba(0,0,0,0.92);
+box-shadow: inset 10px -2px 22px -9px rgba(0,0,0,0.92);
+}
+/*-- Galeria --*/
+#Galeria{
+        background-color: #392c2c;
+    
+}
+
+.jumbotron{
+    border-radius: 0;
+    padding: 0 0 4rem;
+    margin-bottom: 0;
+    background-color: #392c2c;
+    -webkit-box-shadow: inset 0px 15px 20px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow:    inset 0px 15px 20px rgba(0, 0, 0, 0.4);
+    box-shadow:         inset 0px 5px 20px rgba(0, 0, 0, 0.4),inset 0px -5px 20px rgba(0, 0, 0, 0.4);
+    
+    background-image: url("https://st2.depositphotos.com/7908382/10665/i/950/depositphotos_106652330-stock-photo-modern-white-painted-wall-background.jpg");
+    background-repeat: repeat; 
+    background-size: 20%;
+    /* background-attachment: fixed;*/
+}
+.galeria{
+    transition: transform .5s ease; 
+}
+.galeria img{
+    transition: transform .5s ease;
+    width: 100%;
+}
+
+.galeria img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.row.no-Padding [class*=col-]{
+    padding: 0;
+}
+.galeria{
+    overflow: hidden;
+}
+.tamano-insta{
+    margin: 2px;
+}
+.fa-instagram{
+    text-shadow:10px 10px 5px black !important;    
+}
+#Galeria .btn-instagram{
+    background-color: #DD2A7B;
+    border-color: #DD2A7B;
+    font-size: 35px;    
+    font-family: 'Grand Hotel', cursive;
+    letter-spacing: 1px;
+    text-shadow:1px 1px 5px black;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 6px;
+    margin-top: 1%;
+}
+#Galeria .btn-instagram:hover{
+    background-color: #BC2569;
+    border-color: #BC2569;
+    transition: all 0.8s;
+}
+#Galeria .btn-instagram:active{    
+    box-shadow: none !important; 
+    background-color: #971E55 !important;
+    border-color: #971E55 !important;    
+}
+.narrow {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+/*-- Ubicación --*/
+#Direccion .heading-underline{
+    width: 3rem;
+    height: .2rem;
+    background-color: #fdb54e;    
+    margin-bottom: 15px;
+    
+}
+.header{    
+    width: 100%;
+    padding-bottom: 10px;    
+}
+.header-down{    
+    width: 100%;
+    transform: rotate(180deg);
+    padding-bottom: 15px;
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:60%;
+    position:relative;
+    height:0;
+    border-radius: 20px;
+    border: 6px solid #f4c95d;
+    margin: -15px;
+}
+.map-responsive iframe{    
+    height:100% !important;
+    width:100% !important;
+    position:absolute;
+}
+.borde-mapa{
+    border-radius: 20px;   
+}
+#Ubicacion h3{
+    padding-top: 10px;
+}
+#Ubicacion p{
+    font-size: 19px;    
+}
+#Ubicacion a{
+    color: #505962;
+    font-size: 19px;
+}
+#Ubicacion .padding-local{
+    padding: 0px 200px;
+    padding-bottom: 90px;
+}
+#Ubicacion{
+    background-image: url("/img/BG/linedpaper.png");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: 40%;
+    padding-bottom: 90px;
+    
+    border-bottom: 3px solid;
+    
+    
+    -webkit-box-shadow: inset 0px 5px 20px rgba(0, 0, 0, 0.4)inset 0px -5px 20px rgba(0, 0, 0, 0.4);;
+    -moz-box-shadow:    inset 0px 5px 20px rgba(0, 0, 0, 0.4)inset 0px -5px 20px rgba(0, 0, 0, 0.4);;
+    box-shadow:         inset 0px 5px 20px rgba(0, 0, 0, 0.4),inset 0px -5px 20px rgba(0, 0, 0, 0.4);
+}
+
+
+/* CONTACTO */
+.parallax-window-ubicacion{
+    
+}
+#Contacto{
+    background-image: url("/img/BG/prism.png");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: 60%;
+    
+    text-shadow: 3px 3px 20px black;
+    
+    color: #f9f9f9;
+    padding-bottom: 100px;    
+    
+    -webkit-box-shadow: inset 0px 15px 20px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow:    inset 0px 15px 20px rgba(0, 0, 0, 0.4);
+    box-shadow:         inset 0px 15px 20px 0px rgba(0, 0, 0, 0.4);
+    
+}
+#Contacto .formulario{
+    margin: auto;  
+    font-family: 'Lato';
+    font-weight: 600;
+    font-size: 18px;
+    
+    
+}
+#Contacto .form-control {
+    border: 2px solid #e7b23b;
+    font-family: sans-serif;
+    font-size: 19px;
+}
+#Contacto .form-control:focus {
+  border-color: #202020 !important;
+  box-shadow: 0 0 5px rgba(98, 101, 228, 1) !important;
+}
+#Contacto .btn-enviar{
+    background-color: #fed136;
+    border-color: #fed136;
+    font-size: 25px;
+    font-weight: 700;    
+    text-shadow:1px 1px 5px black;
+    padding: 10px 0px;
+}
+#Contacto .btn-enviar:hover{
+    background-color: #cea835;
+    border-color: #cea835;
+}
+#Contacto .btn-enviar:active{    
+    box-shadow: none !important; 
+    background-color: #af8f2b !important;
+    border-color: #af8f2b !important;    
+}
+
+
+/* CREDITOS */
+footer{
+    background-color: #202020; /*#40474e;*/
+    color: white;
+    
+}
+footer img{   
+    height: 50px;
+    margin: 1rem 0;
+}
+
+
+
+/*===============CELULARES================*/
+  
+@media (max-width: 767px){
+    .navbar{
+    border: 5px solid transparent; 
+    }
+    .to-top { 	
+	position: fixed; 
+	bottom: 1px; 
+	right: 20px; 
+	text-decoration: none; 
+	color: #e7b23b; 
+	background: transparent; 	 
+	display: none;
+    filter: drop-shadow(0px 2px 0px #795E20);
+    font-size: 55px;
+    }
+    .to-top:hover{ 
+	filter: drop-shadow(0px 2px 0px #756943);
+    }
+    .chico{
+    width: 80% !important;
+    margin-top: 0px;
+    }
+    #Ubicacion .padding-local{
+    padding: 0px 15px;
+    margin-bottom: 50px;
+    }
+    #Nosotros .padding-local{
+    padding: 0px 20px;
+    }
+    .img-barra{ /*Imagen Barra sin bajar*/
+    width: 100%; 
+    transition: all 0.3s;
+    padding-left: 10px;
+    }
+    #Locales .padding-local{
+    padding: 0px;
+    }
+    .btn-instagram{
+    padding-left: 30px !important;
+    padding-right: 30px !important;    
+    }
+    .titulo-nosotros{
+        padding: 0px !important;        
+    }
+    #Nosotros h2{
+        font-size: 50px;
+    }
+    #Nosotros p{
+        font-size: 20px;
+        font-weight: 10 !important;
+        text-align: center;
+        text-justify: inter-word;
+    }
+    #Nosotros .padding-local{
+        padding: 0px;
+    }
+    #Nosotros .fondo{
+        padding-bottom: 60px;
+    }
+    #Ubicacion{
+        padding-bottom: 0px;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 1299px){
+    .navbar{
+        border: 15px solid transparent;    
+        font-family: 'Lobster', cursive;
+        font-size: 19px;    
+        letter-spacing: 3px; 
+    }
+    #Ubicacion .padding-local{
+        padding: 0px 30px;    
+    }
+    .map-responsive{    
+        padding-bottom:100%;    
+    }
+    #Locales .padding-local{
+        padding: 0px 0px;
+    }
+    
+    .img-barra{ /*Imagen Barra sin bajar*/
+        width: 80%; 
+        transition: all 0.3s;
+        padding-left: 0px !important;
+    }
+    
+    .tarjetas1{
+        background: red !important;
+        padding: 20px 0 20px !important;
+    }
+    .tarjetas2{
+        background: red !important;
+        padding: 0 0 20px !important;
+    }
+    
+    
+    
+}
+@media (min-width: 1300px) and (max-width: 1600px){
+    .navbar{ /*cambios de clases*/
+        border: 15px solid transparent;    
+        font-family: 'Lobster', cursive;
+        font-size: 19px;    
+        letter-spacing: 3px; 
+    }
+    .img-barra{ /*Imagen Barra sin bajar*/
+    width: 90%; 
+    transition: all 0.3s ease;  
+    }
+    .chico{
+    width: 58% !important;
+    margin-top: 0px;
+    transition: all 0.5s ease;
+    }
+    h2.heading{
+    font-size: 45px;       
+    padding-top: 28px;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 2px;    
+    }
+    h4.subtitulo{
+    font-size: 22px;    
+    }
+    #Nosotros h2{
+    font-size: 60px;
+    text-shadow: 3px 3px 10px #161616, -3px -3px 10px #161616;
+    }
+    #Nosotros p{
+    line-height: 25px;
+	margin: 15px 0px 10px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: justify;
+    letter-spacing: 1px;
+    }
+    #Ubicacion .padding-local{
+    padding: 0px 40px;
+    }
+    .map-responsive{    
+    padding-bottom:70%;    
+    }
+    #Locales .padding-local{
+    padding: 0px 200px;
+    }
+    .to-top { 	
+	position: fixed; 
+	bottom: 5px; 
+	right: 30px; 	 	
+    font-size: 70px;
+    }
+    
+}
+
+
+
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/

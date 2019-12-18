@@ -1,0 +1,967 @@
+@import url('https://fonts.googleapis.com/css?family=Grand+Hotel');
+@import url('https://fonts.googleapis.com/css?family=Lato:700, 700i');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+
+body{
+    overflow-x: hidden;
+    /*font-family: 'Architects Daughter', cursive;*/
+    font-family: 'Lato';
+    color: #262626;/*#333333;*/
+}
+a{
+    outline:none !important;
+}
+.navbar{
+    border: 15px solid transparent;    
+    font-family: 'Lobster', cursive;
+    font-size: 22px;
+    padding: 0px 0px !important;
+    letter-spacing: 3px;
+    background: rgba(0, 0, 0, .9) !important;
+    text-shadow:1px 3px 5px black;
+    transition: all 0.8s;
+    display: flex;
+
+}
+.on {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.9) !important;   
+
+    transition: all 0.8s;
+
+
+}
+.img-barra{ /*Imagen Barra sin bajar*/
+    width: 70%; 
+    transition: all 0.3s ease;  
+    margin-top: 0px;    
+}
+
+.navbar-nav li{
+    padding-right: 0.7rem;    
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+    padding-top: .8rem;
+    outline:none;
+}
+
+.navbar-dark .navbar-nav .nav-link.active, /** Mouse encima y selección **/
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #f4c95d;      
+
+} 
+#Presentacion .subtitulo{
+    font-size: 35px;
+    font-weight: 600;
+}
+#Presentacion .sub-medicina{
+    color:#FD4E4E;
+    font-size: 25px !important;    
+}
+#Presentacion .padding-bot{
+    padding-bottom: 50px;
+}
+#Presentacion .Terapias{
+    color:#F6954D;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 25px;
+}
+#Presentacion .datos{
+    text-align: justify;
+    text-align-last: center;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 35px;
+    padding-bottom: 10px;
+}
+#Presentacion .video-contenedor{
+    padding: 0px !important;
+}
+#Presentacion .video{    
+    object-fit: cover;
+    height: 100%;
+}
+#Presentacion .margen{
+    height: 22px;
+}
+#Presentacion .heading{
+    font-size: 65px; 
+}
+#Presentacion .subtitulo{
+    font-size: 35px;
+    font-weight: 600;
+}
+h2.heading{
+    font-size: 65px;       
+    font-family: 'Lobster', cursive;
+    letter-spacing: 2px;    
+
+}
+#PresentacionBT h2.heading{
+    font-size: 65px;       
+    font-family: 'Lobster', cursive;
+    letter-spacing: 2px;    
+    margin-bottom: 0;
+}
+h2.heading2{
+    font-size: 45px;       
+    font-family: 'Lobster', cursive;
+    letter-spacing: 2px; 
+}
+h4.subtitulo{
+    font-size: 26px;    
+}
+.heading-underline{
+    width: 5rem;
+    height: .2rem;
+    background-color: #fdb54e; 
+    margin: 0 auto 2rem;
+}
+.heading-underlineBaile{
+    width: 5rem;
+    height: .2rem;
+    background-color: #FD4E4E; 
+    margin: 0 auto 2rem; 
+}
+
+#Espacio{
+    padding-bottom: 88px;
+}
+/*Presentacion */
+#Presentacion{
+
+}
+#Presentacion p{
+    font-size: 23px;  
+}
+.cuerpo-nosotros{
+    height: 100%;
+    text-align: justify;        
+    border-radius: 5px;
+    padding: 40px 20px;
+    background-color: rgb(242,242,242,0.7);
+    -webkit-box-shadow: 1px 1px 5px 3px #565656;
+    -moz-box-shadow:    1px 1px 5px 3px #565656;
+    box-shadow:         1px 1px 5px 3px #565656;
+}
+
+#Presentacion .padding-local{
+    padding: 0px 200px;    
+    padding-bottom: 50px;
+
+}
+/*Fotos*/
+#fotos{
+    background-image: url("/img/BG/diamond.jpg");
+    background-attachment: fixed;   
+    background-size: 100%;
+
+}
+#Fotos .margen{
+    height: 10px;
+}
+#Fotos .margen2{
+    height: 50px;
+}
+
+
+/* Contacto */
+#Contacto{
+    background-image: url("/img/BG/car7.jpg");
+    background-attachment: fixed;
+    background-position: -120 31%;
+    background-repeat: repeat; 
+    background-size: 112%;
+}
+.redes-sociales img{
+    width: 80%;
+    transition: 0.5s;
+}
+.redes-sociales img:hover{
+    -webkit-transform: scale3d(1,1,1);
+    transform: scale3d(1.1,1.1,1);
+    transition: 0.5s;
+}
+.padding-localRS{
+    padding: 0 500px;
+    padding-bottom: 50px;
+}
+#info .heading-underlineBaile{
+    width: 3rem;
+    height: .2rem;
+    background-color: #fd4e4e;    
+    margin-bottom: 30px;
+}
+#ContactoBT #info .heading-underline{
+    width: 3rem;
+    height: .2rem;
+    background-color: #ff83a1;    
+    margin-bottom: 30px;
+}
+#Contacto .padding-local{
+    padding: 0 300px;
+}
+#Contacto .margen{
+    height: 50px;
+}
+#Contacto h3{
+    padding-top: 2px;
+    font-size: 35px;
+
+}
+#contacto .informacion{
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+#Contacto .sub{
+    text-align: center;
+}
+#Contacto a{
+    color: #333333;
+    font-size: 22px;
+}
+#Contacto p{
+    font-size: 22px;
+}
+
+
+.insta{
+    width: 100%;
+    transition: 0.3s;
+}
+.insta:hover{
+    -webkit-transform: scale3d(0.99,1.09,1);
+    transform: scale3d(0.99,1.09,1);
+    transition: 0.5s;
+}
+.padding{
+    padding-top: 0 !important;
+
+}
+#Contacto .btn-ubicacion{
+    background-color: #f4c95d;
+    border-color: #fed136;
+    font-size: 25px;
+    font-weight: 700;    
+    text-shadow:1px 1px 5px black;
+    padding: 10px 0px;
+    color: white;
+}
+#Contacto .btn-ubicacion:hover{
+    background-color: #cea835;
+    border-color: #cea835;
+}
+#Contacto .btn-ubicacion:active{    
+    box-shadow: none !important; 
+    background-color: #af8f2b !important;
+    border-color: #af8f2b !important;    
+}
+#Contacto .btn-ubicacionBaile{
+    background-color: #d3394c;
+    border-color: #d3394c;
+    font-size: 25px;
+    font-weight: 700;    
+    text-shadow:1px 1px 5px black;
+    padding: 10px 0px;
+    color: white;
+}
+#Contacto .btn-ubicacionBaile:hover{
+    background-color: #af2d46;
+    border-color: #af2d46;
+}
+#Contacto .btn-ubicacionBaile:active{    
+    box-shadow: none !important; 
+    background-color: #8b2444 !important;
+    border-color: #8b2444 !important;    
+}
+.fa-whatsapp{
+    font-size: 40px;    
+}
+.whatschico{
+    font-size: 25px;
+}
+/*Ballet*/
+#PresentacionBT .heading-underline,#ContactoBT .heading-underline{
+    width: 5rem;
+    height: .2rem;
+    background-color: #ff83a1 ; 
+    margin: 0 auto 2rem;
+}
+#PresentacionBT .margen{
+    height: 22px;
+}
+
+#PresentacionBT .subtitulo{
+    font-size: 35px;
+    font-weight: 600;
+}
+#PresentacionBT .sub-medicina{
+    color:#ff83a1;
+    font-size: 25px !important;    
+}
+#PresentacionBT .padding-bot{
+    padding-bottom: 50px;
+}
+#PresentacionBT .Terapias{
+    color:#ff83a1;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 25px;
+}
+#PresentacionBT .datos{
+    text-align: justify;
+    text-align-last: center;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 35px;
+    padding-bottom: 10px;
+}
+#PresentacionBT .imagen-medi{
+    background-color: white;
+    background-image: url("/img/Espacio/Ballet/Ballet-Largo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;       
+
+    -webkit-box-shadow: -5px 0px 11px -2px rgba(0,0,0,0.4);
+    -moz-box-shadow: -5px 0px 11px -2px rgba(0,0,0,0.4);
+    box-shadow: -5px 0px 11px -2px rgba(0,0,0,0.4);    
+}
+#ContactoBT{
+    background-image: url("/img/BG/full-bloom.png");
+    background-attachment: fixed;    
+    background-repeat: repeat;
+    padding-bottom: 40px;
+    -webkit-box-shadow: inset 0px 10px 9px -8px rgba(0,0,0,0.18);
+    -moz-box-shadow: inset 0px 10px 9px -8px rgba(0,0,0,0.18);
+    box-shadow: inset 0px 10px 9px -8px rgba(0,0,0,0.18);
+}
+#ContactoBT .padding-local{
+    padding: 0 200px;
+}
+#ContactoBT .margen{
+    height: 50px;
+}
+#ContactoBT h3{
+    padding-top: 2px;
+    font-size: 35px;
+
+}
+#ContactoBT .informacion{
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+#ContactoBT .sub{
+    text-align: center;
+}
+#ContactoBT a{
+    color: #333333;
+    font-size: 22px;
+}
+#ContactoBT p{
+    font-size: 22px;
+}
+#ContactoBT .btn-ubicacion{
+    background-color: #ff99b9;
+    border-color: #ff99b9;
+    font-size: 25px;
+    font-weight: 700;    
+    text-shadow:1px 1px 5px black;
+    padding: 10px 0px;
+    color: white;
+}
+#ContactoBT .btn-ubicacion:hover{
+    background-color: #ff83a1;
+    border-color: #ff83a1;
+}
+#ContactoBT .btn-ubicacion:active{    
+    box-shadow: none !important; 
+    background-color: #f96186 !important;
+    border-color: #f96186 !important;    
+}
+
+
+/* Quiro */
+.presentacion-quiro{
+    width: 76%;
+    border-radius: 5px;
+    -webkit-box-shadow: 1px 1px 5px 3px #3d3225;
+    -moz-box-shadow:    1px 1px 5px 3px #3d3225;
+    box-shadow:         1px 1px 5px 3px #3d3225;    
+}
+#PresentacionQP .cuerpo-nosotros{
+    -webkit-box-shadow: 1px 1px 5px 3px #3d3225;
+    -moz-box-shadow:    1px 1px 5px 3px #3d3225;
+    box-shadow:         1px 1px 5px 3px #3d3225;
+}
+.telefono{
+    -webkit-transform: rotate(-260deg);
+    transform: rotate(-260deg);
+}
+#PresentacionQP .margen{
+    height: 22px;
+}
+#PresentacionQP .heading{
+    font-size: 80px; 
+}
+#PresentacionQP .subtitulo{
+    font-size: 35px;
+    font-weight: 600;
+}
+#PresentacionQP{
+    background-color: black;
+    background-image: url("/img/BG/Quiro.jpg");
+    background-attachment: fixed;
+
+    background-repeat: repeat;    
+
+}
+#PresentacionQP h4{
+    font-weight: 600;
+}
+#PresentacionQP p{
+    font-size: 23px;  
+
+}
+#PresentacionQP .padding-local{
+    padding: 0px 200px;    
+    padding-bottom: 50px;
+
+}
+#serviciosQP{
+    padding: 0px 100px;    
+    padding-bottom: 50px;
+    background-color: black;
+
+    background-image: url(/img/galeria/Quiropraxia/fondo.jpg);          
+    background-size: 100%;
+}
+.servici-header{
+    color: white;
+}
+.servv{
+    padding: 0 !important;
+    -webkit-box-shadow: 1px 1px 5px 3px #3d3225;
+    -moz-box-shadow:    1px 1px 5px 3px #3d3225;
+    box-shadow:         1px 1px 5px 3px #3d3225;
+    margin: 15px;
+}
+.tarjetas{
+    width: 100%;
+}
+.abajo{
+    padding: 0px 250px;
+    padding-top: 20px;
+}
+#Historia{
+    padding: 0 200px;
+    background-image: url(/img/BG/section-bg.jpg);
+    padding-bottom: 50px;
+    border-top: 5px solid;
+    border-bottom: 5px solid;
+}
+#Historia .margen{
+    height: 50px;
+}
+#serviciosQP .margen{
+    height: 5px;
+}
+.Jose{
+    width: 80%;
+    border-radius: 30px;
+    -webkit-box-shadow: 1px 1px 5px 3px #3d3225;
+    -moz-box-shadow:    1px 1px 5px 3px #3d3225;
+    box-shadow:         1px 1px 5px 3px #3d3225;
+}
+#Historia h3{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center
+}
+#Historia p{
+    font-size: 22;
+    padding: 0 30px;
+}
+#fotosQP{
+    background-image: url("/img/BG/retina_wood_@2X.png");
+    background-attachment: fixed;    
+    background-repeat: repeat; 
+    background-size: 100%;
+
+}
+#fotosQP .margen{
+    height: 15px;
+}
+#fotosQP .margen2{
+    height: 50px;
+}
+#fotosQP .container.gallery-container{
+    min-height: 10;
+    padding-bottom: 20px;
+}
+#ContactoQP{
+    background-image: url("/img/BG/full-bloom.png");
+    background-attachment: fixed;    
+    background-repeat: repeat;     
+}
+#ContactoQP .padding-local{
+    padding: 0 300px;
+}
+#ContactoQP .margen{
+    height: 50px;
+}
+#ContactoQP h3{
+    padding-top: 2px;
+    font-size: 35px;
+
+}
+#ContactoQP .informacion{
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+#ContactoQP .sub{
+    text-align: center;
+}
+#ContactoQP a{
+    color: #333333;
+    font-size: 22px;
+}
+#ContactoQP p{
+    font-size: 22px;
+}
+#ContactoQP .btn-ubicacion{
+    background-color: #f4c95d;
+    border-color: #fed136;
+    font-size: 25px;
+    font-weight: 700;    
+    text-shadow:1px 1px 5px black;
+    padding: 10px 0px;
+    color: white;
+}
+#ContactoQP .btn-ubicacion:hover{
+    background-color: #cea835;
+    border-color: #cea835;
+}
+#ContactoQP .btn-ubicacion:active{    
+    box-shadow: none !important; 
+    background-color: #af8f2b !important;
+    border-color: #af8f2b !important;    
+}
+/* MEDICINA */
+#PresentacionYG .heading-underline{
+    margin: 0 auto 25px;
+}
+.intro-medi{   
+    padding-bottom: 20px !important;
+}
+.imagen-medi{
+    background-color: white;
+    background-image: url("/img/BG/Medicina.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;       
+
+    -webkit-box-shadow: -5px 0px 11px -2px rgba(0,0,0,0.2);
+    -moz-box-shadow: -5px 0px 11px -2px rgba(0,0,0,0.2);
+    box-shadow: -5px 0px 11px -2px rgba(0,0,0,0.2);    
+}
+.sub-medicina{
+    color:#79b849;
+    font-size: 25px !important;    
+}
+.nombre-intro{
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 2px;
+
+}
+.descripcion-intro{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.descripcion-intro-uni{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.Terapias{
+    color:#79b849;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 25px;
+}
+.datos{
+    text-align: justify;
+    text-align-last: center;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 35px;
+    padding-bottom: 10px;
+}
+.padding-izq{
+    padding-left: 50px;
+}
+.padding-terapias{
+    padding-bottom: 100px;   
+}
+#HomeYG .heading-underline{
+    width: 5rem;
+    height: .2rem;
+    background-color: #79b849; 
+    margin: 0 auto 2rem;
+}
+#HomeYG #info .heading-underline{
+    width: 3rem;
+    height: .2rem;
+    background-color: #79b849;    
+    margin-bottom: 30px;
+}
+#HomeYG .container.gallery-container{
+    min-height: 0;
+}
+#PresentacionYG .margen{
+    height: 22px;
+}
+#PresentacionYG .heading{
+    font-size: 65px; 
+}
+#PresentacionYG .subtitulo{
+    font-size: 35px;
+    font-weight: 600;
+}
+#PresentacionYG h4{
+    font-weight: 600;
+}
+#PresentacionYG p{
+    font-size: 23px;           
+}
+#fotosYG{
+    background-image: url(https://www.circleone.in/media/catalog/product/A/q/Aqua-Blue-Yoga.jpg);
+    background-attachment: fixed;    
+    background-size: 100%; 
+
+}
+
+#ContactoYG{
+    background-image: url("/img/BG/full-bloom.png");
+    background-attachment: fixed;    
+    background-repeat: repeat;  
+    -webkit-box-shadow: inset 0px 10px 9px -8px rgba(0,0,0,0.18);
+    -moz-box-shadow: inset 0px 10px 9px -8px rgba(0,0,0,0.18);
+    box-shadow: inset 0px 10px 9px -8px rgba(0,0,0,0.18);
+}
+#ContactoYG .padding-local{
+    padding: 0 300px;
+}
+#ContactoYG .margen{
+    height: 50px;
+}
+#ContactoYG h3{
+    padding-top: 2px;
+    font-size: 35px;
+
+}
+#ContactoYG .informacion{
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+#ContactoYG .sub{
+    text-align: center;
+}
+#ContactoYG a{
+    color: #333333;
+    font-size: 22px;
+}
+#ContactoYG p{
+    font-size: 22px;
+}
+
+#ContactoYG .btn-ubicacion{
+    background-color: #79b849;
+    border-color: #79b849;
+    font-size: 25px;
+    font-weight: 700;    
+    text-shadow:1px 1px 5px black;
+    padding: 10px 0px;
+    color: white;
+}
+#ContactoYG .btn-ubicacion:hover{
+    background-color: #5EA22A;
+    border-color: #5EA22A;
+}
+#ContactoYG .btn-ubicacion:active{    
+    box-shadow: none !important; 
+    background-color: #C2E1AB !important;
+    border-color: #C2E1AB !important;    
+}
+
+/* 
+UÑAS 
+*/
+#PresentacionNails .sub-medicina{
+    color: #97CEC3;
+    font-size: 25px !important;
+    font-weight: 600;
+}
+#PresentacionNails .heading-underlineBaile{
+    width: 5rem;
+    height: .2rem;
+    background-color: #97CEC3;
+    margin: 0 auto 2rem;
+}
+#PresentacionNails .imagen-medi{
+    background-color: white;
+    background-image: url("/img/Espacio/Manicure/unas-largo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;       
+
+    -webkit-box-shadow: -5px 0px 11px -2px rgba(0,0,0,0.2);
+    -moz-box-shadow: -5px 0px 11px -2px rgba(0,0,0,0.2);
+    box-shadow: -5px 0px 11px -2px rgba(0,0,0,0.2);    
+}
+#PresentacionNails .terapias{
+    color:#97CEC3;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 25px;
+    text-align: left !important;
+}
+#PresentacionNails .seriviciosNails{
+    text-align: left !important;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 35px;
+    padding-bottom: 10px;
+}
+#PresentacionNails .intro-medi{
+    background-image: url("/img/Espacio/Manicure/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+}
+#fotosNails{
+   
+    background-image: url(/img/BG/celeste.jpg);
+    background-attachment: fixed;    
+    background-size: 100%; 
+
+}
+#FotosNails .margen{
+    height: 10px;
+}
+#FotosNails .margen2{
+    height: 50px;
+}
+.btn-ubicacionNS{
+    background-color: #97CEC3;
+    border-color: #97CEC3;
+    font-size: 25px !important;
+    font-weight: 700;    
+    text-shadow:1px 1px 5px black;
+    padding: 10px 0px;
+    color: white !important;
+}
+.btn-ubicacionNS:hover{
+    background-color: #539FA4;
+    border-color: #539FA4;
+}
+.btn-ubicacionNS:active{    
+    box-shadow: none !important; 
+    background-color: #ECF7F2 !important;
+    border-color: #ECF7F2 !important;    
+}
+#ContactoNS{
+    background-image: url("/img/BG/full-bloom.png");
+    background-attachment: fixed;    
+    background-repeat: repeat;  
+    -webkit-box-shadow: inset 0px 10px 9px -8px rgba(0,0,0,0.18);
+    -moz-box-shadow: inset 0px 10px 9px -8px rgba(0,0,0,0.18);
+    box-shadow: inset 0px 10px 9px -8px rgba(0,0,0,0.18);
+}
+#ContactoNS .padding-local{
+    padding: 0 300px;
+}
+#ContactoNS .margen{
+    height: 50px;
+}
+#ContactoNS h3{
+    padding-top: 2px;
+    font-size: 35px;
+
+}
+#ContactoNS .informacion{
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+#ContactoNS .sub{
+    text-align: center;
+}
+#ContactoNS a{
+    color: #333333;
+    font-size: 22px;
+}
+#ContactoNS p{
+    font-size: 22px;
+}
+
+/* CREDITOS */
+
+footer{
+    background-color: #202020; /*#40474e;*/
+    color: white;
+
+}
+footer img{   
+    height: 50px;
+    margin: 1rem 0;
+}
+
+@media (max-width: 767px){
+    #Presentacion .padding-local,#PresentacionQP .padding-local,#Historia{
+        padding: 0 0 !important;
+        padding-bottom: 90px;
+    }
+    #PresentacionQP h4,p{
+        text-align: center;
+    }
+    #ServiciosQP{
+        padding: 0 10 !important; 
+    }
+    #Presentacion .margen{
+        height: 0px;
+    }
+    #Contacto .padding-local,#ContactoQP .padding-local{
+        padding: 0 0px;
+    }
+    #info .heading-underline{
+        margin-bottom: 10px;
+    }
+    .padding-localRS{
+        padding: 0 0;
+        padding-bottom: 50px;
+    }
+    .redes-sociales img{
+        width: 100%;
+        transition: 0.5s;
+    }
+    .gal{
+        padding: 5px !important;        
+    }
+    #Presentacion{
+        background-attachment: inherit;
+        background-position: 0;
+        background-repeat: repeat;    
+        background-size: cover;    
+    }
+    #Contacto{
+        background-attachment: fixed;    
+        background-repeat: repeat; 
+        background-size: cover;
+    }
+    .abajo{
+        padding: 0px !important;
+    }
+    .servv{
+        padding: 0 !important;
+        -webkit-box-shadow: 1px 1px 5px 3px #3d3225;
+        -moz-box-shadow:    1px 1px 5px 3px #3d3225;
+        box-shadow:         1px 1px 5px 3px #3d3225;
+        margin: 0px;
+        margin-bottom: 15px;
+        border: 15px !important;
+    }
+    .sueno{
+        text-align: justify;
+    }
+    #fotosQP .container{
+        max-width: 768px;
+    }
+    
+
+}
+@media (min-width: 768px) and (max-width: 1299px){
+    #Presentacion .padding-local,#PresentacionBT .padding-local,#PresentacionQP .padding-local,#ServiciosQP,#Historia{
+        padding: 0px 0px;    
+        padding-bottom: 50px;
+    }    
+    #Presentacion p{
+        font-size: 20px;  
+    }
+    #Contacto .padding-local,#ContactoBT .padding-local,#ContactoQP .padding-local{
+        padding: 0 90px;
+    }
+    #Contacto a,#ContactoBT a,#ContactoQP a{
+        color: #333333;
+        font-size: 18px;
+    }
+    #Contacto p,#ContactoBT p,#ContactoQP p{
+        font-size: 18px;
+    }
+    .padding-localRS{
+        padding: 0 250px;
+        padding-bottom: 50px;
+    }
+    .redes-sociales img{
+        width: 70%;
+        transition: 0.5s;
+    }
+    #Contacto{
+        background-attachment: fixed;    
+        background-repeat: repeat; 
+        background-size: cover;
+    }
+    #Presentacion{
+        background-attachment: fixed;
+        background-position: -70 0;
+        background-repeat: repeat;    
+        background-size: 110%;    
+    }
+    #serviciosQP{
+        padding: 0px 10px;
+        background-image: url(/img/galeria/Quiropraxia/fondo.jpg);          
+        background-size: auto 100%;
+        background-position: -500 0;
+    }
+    .servv{
+        padding: 0 !important;
+        -webkit-box-shadow: 1px 1px 5px 3px #3d3225;
+        -moz-box-shadow:    1px 1px 5px 3px #3d3225;
+        box-shadow:         1px 1px 5px 3px #3d3225;
+        margin: 0px;
+        margin-bottom: 10px;
+        border: 15px !important;
+
+    }
+}
+@media (min-width: 1300px) and (max-width: 1600px){
+    #Presentacion .padding-local,#PresentacionBT .padding-local,#PresentacionQP .padding-local,#ServiciosQP,#Historia{
+        padding: 0px 0px;    
+        padding-bottom: 50px;
+    }
+    #Contacto .padding-local,#ContactoBT .padding-local,#ContactoQP .padding-local{
+        padding: 0 100px;
+    }
+    .padding-localRS{
+        padding: 0 300px;
+        padding-bottom: 50px;
+    }
+    .redes-sociales img{
+        width: 70%;
+        transition: 0.5s;
+    }
+    #serviciosQP{
+        background-image: url(/img/galeria/Quiropraxia/fondo.jpg);          
+        background-size: auto 100%;
+        background-position: -500 0;
+    }
+
+}
