@@ -109,7 +109,7 @@
     top: 15%;
 }
 #menu{
-    background-image: url("/images/madera5.jpg");
+    background-image: url("../images/madera5.jpg");
     background-attachment: fixed;   
     background-size: 100%;
 }
