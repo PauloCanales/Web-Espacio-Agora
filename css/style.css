@@ -132,6 +132,8 @@ a{
     text-transform: uppercase;
 }
 .carousel-caption h1{
+    display: flex;
+    justify-content: center;
     font-size: 3.8rem;    
     font-weight: 700;
     width: 100%;
@@ -532,6 +534,15 @@ footer{
 /*===============CELULARES================*/
   
 @media (max-width: 767px){
+    .carousel-caption h1{
+    font-size: 40px;    
+    font-weight: 700;
+    width: 100%;
+    right: 0;
+    left: 0;
+    text-shadow: 7px 6px 15px black;
+    padding-bottom: 1rem;
+}
     .navbar{
     border: 5px solid transparent; 
     }
