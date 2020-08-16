@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Grand+Hotel');
-@import url('https://fonts.googleapis.com/css?family=Lato:700, 700i');
+@import url('https://fonts.googleapis.com/css?family=Lato:700, 700i,900');
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 
 
@@ -313,6 +313,12 @@ h4.subtitulo{
     font-weight: 600;
     font-size: 25px;
 }
+#PresentacionBT .intro-medi{
+    background-image: url("/img/Espacio/Ballet/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom; 
+}
 #PresentacionBT .datos{
     text-align: justify;
     text-align-last: center;
@@ -411,15 +417,47 @@ h4.subtitulo{
 }
 #PresentacionQP .subtitulo{
     font-size: 35px;
-    font-weight: 600;
+    font-weight: 600;    
+}
+#PresentacionQP .sub-medicina{
+    color: #0487CC;
 }
 #PresentacionQP{
     background-color: black;
-    background-image: url("/img/BG/Quiro.jpg");
+    background-color: white;
     background-attachment: fixed;
 
+    
     background-repeat: repeat;    
 
+}
+#PresentacionQP .imagen-medi{
+    background-color: white;
+    background-image: url("/img/Espacio/Quiropractico/unas-largo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;       
+
+    -webkit-box-shadow: -5px 0px 11px -2px rgba(0,0,0,0.2);
+    -moz-box-shadow: -5px 0px 11px -2px rgba(0,0,0,0.2);
+    box-shadow: -5px 0px 11px -2px rgba(0,0,0,0.2);
+}
+#PresentacionQP .intro-medi{
+    background-image: url("/img/Espacio/Quiropractico/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;  
+    
+}
+#PresentacionQP .heading-underline{
+    background-color: #0487CC;
+        margin: 0 auto 1rem;
+}
+#PresentacionQP .Terapias{
+    color: #0487CC;
+}
+#PresentacionQP .datos{
+    
 }
 #PresentacionQP h4{
     font-weight: 600;
@@ -433,12 +471,15 @@ h4.subtitulo{
     padding-bottom: 50px;
 
 }
+#serviciosQP .heading-underline{
+    background-color: white;
+        margin: 0 auto 1rem;
+}
+
 #serviciosQP{
     padding: 0px 100px;    
     padding-bottom: 50px;
-    background-color: black;
-
-    background-image: url(/img/galeria/Quiropraxia/fondo.jpg);          
+    background-color: #0487CC;              
     background-size: 100%;
 }
 .servici-header{
@@ -556,8 +597,11 @@ h4.subtitulo{
 #PresentacionYG .heading-underline{
     margin: 0 auto 25px;
 }
-.intro-medi{   
-    padding-bottom: 20px !important;
+#PresentacionYG .intro-medi{   
+    background-image: url("/img/Espacio/Medicina/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;    
 }
 .imagen-medi{
     background-color: white;
@@ -610,6 +654,35 @@ h4.subtitulo{
 }
 .padding-terapias{
     padding-bottom: 100px;   
+}
+#bio{
+    padding-top: 20px;
+}
+#bio h2{
+    font-size: 65px;       
+    font-family: 'Lobster', cursive;
+    letter-spacing: 2px; 
+}
+#bio p{
+    font-size: 22px;
+    text-align: justify;
+    font-style: italic;
+}
+#bio ul{
+    font-size: 22px;
+    text-align: justify;
+    font-style: italic;
+    padding-left: 20px;
+}
+#bio .heading-underline{
+    width: 3rem;
+    height: .2rem;
+    background-color: white !important;    
+    margin-bottom: 30px;
+}
+.biografia{
+    background-color: #79b849;
+    color: white;    
 }
 #HomeYG .heading-underline{
     width: 5rem;

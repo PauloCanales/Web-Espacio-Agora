@@ -7798,7 +7798,7 @@ h1, h2, h3, h4, h5,
   padding: 30px 15px; }
   @media (min-width: 768px) {
     .ftco-about .one-half {
-      padding: 8% 13% 8% 5%;
+      padding: 8% 8% 8% 8%;
       width: 50%; } }
   .ftco-about .one-half.img {
     display: block; }
@@ -7807,7 +7807,7 @@ h1, h2, h3, h4, h5,
         height: 300px; } }
   @media (min-width: 768px) {
     .ftco-about .one-half .overlap {
-      margin-left: -150px;
+      
       padding: 40px;
       background: rgba(0, 0, 0, 0.5); } }
 

@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Grand+Hotel');
 @import url('https://fonts.googleapis.com/css?family=Lato:700, 700i');
 @import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400600,600i');
 
 
 body{
@@ -175,11 +176,11 @@ h4.subtitulo{
 }
 /*-- Nosotros --*/
 #Nosotros{    
-	/*background-image: url("/img/BG/vintage-concrete.png");
-    background-repeat: repeat;  */ 
-    color: white;
-    
-    background-image: url("https://i.imgur.com/BqskaAf.jpg") !important;
+	background-image: url("../img/BG/vintage-concrete.png");
+    background-repeat: repeat;  
+    color: white;    
+    background-image: url() !important;
+    /*"https://i.imgur.com/BqskaAf.jpg" */
     background: 45%;
     background-attachment: fixed;
     background-position: center;
@@ -213,13 +214,12 @@ h4.subtitulo{
 #Nosotros p{
     line-height: 35px;
 	margin: 15px 0px 10px;
-    font-size: 27px;
-    font-weight: 600;
+    font-size: 27px;    
     text-align: justify;
     text-justify: inter-word;        
 }
 .blur{
-    background: rgba(0, 0, 0, .25) !important;    
+    background: rgba(0, 0, 0, .30) !important;    
     border-radius: 50px;    
 }
 
@@ -235,48 +235,97 @@ h4.subtitulo{
     -moz-box-shadow:    inset 0px 15px 20px rgba(0, 0, 0, 0.4);
     box-shadow:         inset 0px 5px 20px rgba(0, 0, 0, 0.4),inset 0px -5px 20px rgba(0, 0, 0, 0.4);
     
-    background-image: url("https://i.imgur.com/JiEByOy.jpg");
+    background-image: url("https://i.imgur.com/WFEtCe4.jpg");
     background-position: 28% 0%;
     background-repeat: repeat; 
-    background-size: 30%;
+    background-size: 30%;    
     /*background-attachment: fixed;*/
     
     
 }
-.panel-izq{
-    background-image: url("/img/Modulos/panel-izq.png");
-    background-size: 10%;
-    background-repeat: repeat; 
-    
-    padding-left: 5% !important;
-    padding-right: 5% !important;
-    background-size: auto 100%;
-    border: 6px solid #241709;
-    
 
+.panel-izq{
+    background-image: url("../img/Modulos/panel-izq.png");
+    background-size: 100% auto;
+    background-repeat: repeat; 
+    background-position:  center top;        
+        
+    border: 6px solid #1C140E;           
+    position: relative;    
+    
+    -webkit-box-shadow: inset 1px -1px 67px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 1px -1px 67px 0px rgba(0,0,0,0.75);
+    box-shadow: inset 1px -1px 67px 0px rgba(0,0,0,0.75);
 }
-.fondo-modulo{
-    background-image: url("/img/Modulos/fondo.png");
-    background-size: 100%;
-    background-repeat: no-repeat; 
+.helper {
+    display: inline-block;
     height: 100%;
+    vertical-align: middle;
 }
-.secciones{
-   width: 100%;
+.logo-panel{
+    padding-top: 10%;
+    padding-bottom: 10%;
+     width: 80%;
 }
 .pizarra{
     width: 100%;
+    padding-bottom: 15%;
+         
+}
+.centered {
+    position: absolute;
+    width:60%;    
+    font-size: 40px;    
+    font-family: 'Lobster', cursive;
+    color: black;
     
 }
+.fondo-modulo{
+    background-image: url("../img/Modulos/fondo.png");
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    height: 100%;
+    
+}
+.sombra-modulo{
+    -webkit-box-shadow: 0px 3px 39px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 39px -8px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 39px -8px rgba(0,0,0,0.75);
+    
+   
+}
+
+.secciones{   
+    display: block;    
+    margin-top: -10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    transition: transform .5s ease;
+}
+.fondo-modulo img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
 .modulos{
-    background-color: white;
+    background-image: url("../img/BG/modulos/vintage-concrete.png");    
+    
     -webkit-box-shadow: inset 10px -2px 22px -9px rgba(0,0,0,0.92);
--moz-box-shadow: inset 10px -2px 22px -9px rgba(0,0,0,0.92);
-box-shadow: inset 10px -2px 22px -9px rgba(0,0,0,0.92);
+    -moz-box-shadow: inset 10px -2px 22px -9px rgba(0,0,0,0.92);
+    box-shadow: inset 10px -2px 22px -9px rgba(0,0,0,0.92);
+}
+.tarjetas1{
+        
+        padding: 20px 0 10px ;
+}
+.tarjetas2{
+        
+        padding: 0 0 20px !important;
 }
 /*-- Galeria --*/
 #Galeria{
-        background-color: #392c2c;
+    background-color: #392c2c;
+    color: #3C3027;
     
 }
 
@@ -285,17 +334,12 @@ box-shadow: inset 10px -2px 22px -9px rgba(0,0,0,0.92);
     padding: 0 0 4rem;
     margin-bottom: 0;
     background-color: #392c2c;
-    -webkit-box-shadow: inset 0px 15px 20px rgba(0, 0, 0, 0.4);
-    -moz-box-shadow:    inset 0px 15px 20px rgba(0, 0, 0, 0.4);
-    box-shadow:         inset 0px 5px 20px rgba(0, 0, 0, 0.4),inset 0px -5px 20px rgba(0, 0, 0, 0.4);
+    
     
     background-image: url("https://st2.depositphotos.com/7908382/10665/i/950/depositphotos_106652330-stock-photo-modern-white-painted-wall-background.jpg");
     background-repeat: repeat; 
     background-size: 20%;
     /* background-attachment: fixed;*/
-}
-.galeria{
-    transition: transform .5s ease; 
 }
 .galeria img{
     transition: transform .5s ease;
@@ -366,10 +410,14 @@ box-shadow: inset 10px -2px 22px -9px rgba(0,0,0,0.92);
     overflow:hidden;
     padding-bottom:60%;
     position:relative;
-    height:0;
-    border-radius: 20px;
-    border: 6px solid #f4c95d;
+    height:0;   
+    
     margin: -15px;
+    
+    -webkit-box-shadow: 1px 1px 19px 0px rgba(0,0,0,0.43);
+-moz-box-shadow: 1px 1px 19px 0px rgba(0,0,0,0.43);
+box-shadow: 1px 1px 19px 0px rgba(0,0,0,0.43);
+
 }
 .map-responsive iframe{    
     height:100% !important;
@@ -394,14 +442,14 @@ box-shadow: inset 10px -2px 22px -9px rgba(0,0,0,0.92);
     padding-bottom: 90px;
 }
 #Ubicacion{
-    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/linedpaper.png");
+    background-image: url();
     background-repeat: repeat;
-    background-attachment: fixed;
-    background-size: 40%;
+    background-attachment: fixed;    
     padding-bottom: 90px;
     
     border-bottom: 3px solid;
-    
+    background-image: url("../img/BG/full-bloom.png");
+    color: #3C3027;
     
     -webkit-box-shadow: inset 0px 5px 20px rgba(0, 0, 0, 0.4)inset 0px -5px 20px rgba(0, 0, 0, 0.4);;
     -moz-box-shadow:    inset 0px 5px 20px rgba(0, 0, 0, 0.4)inset 0px -5px 20px rgba(0, 0, 0, 0.4);;
@@ -471,11 +519,14 @@ footer{
     color: white;
     
 }
-footer img{   
-    height: 50px;
-    margin: 1rem 0;
+
+.logo-footer{
+    width: 100%;
 }
 
+.footer-margin{
+    padding-top: 50px;
+}
 
 
 /*===============CELULARES================*/
@@ -568,6 +619,7 @@ footer img{
         padding-left: 0px !important;
     }
     
+    
     .tarjetas1{
         background: red !important;
         padding: 20px 0 20px !important;
@@ -576,7 +628,6 @@ footer img{
         background: red !important;
         padding: 0 0 20px !important;
     }
-    
     
     
 }

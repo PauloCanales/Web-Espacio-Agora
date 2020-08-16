@@ -38,7 +38,7 @@
                                 <a class="nav-link page-scroll" href="#Locales">Servicios</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link page-scroll" href="#Galeria">Imagenes</a>
+                                <a class="nav-link page-scroll" href="#Galeria">Imágenes</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link page-scroll" href="#Ubicacion">Ubicación</a>
@@ -103,7 +103,7 @@
 
                     <!--<div class="parallax-window col-md-5 col-xs-12 col-sm-12 imagen" data-parallax="scroll" data-image-src="/img/casaaa.jpg" data-bleed="50" data-speed="0.4" data-position-x="-200px"></div>-->
 
-                    <div class="parallax-window col-md-12 fondo" data-parallax="scroll" data-speed="0.1"  >
+                    <div class="parallax-window col-md-12 fondo" data-parallax="scroll" data-speed="0.1" data-bleed="50" data-image-src="img/Fondos/Nosotros.jpg"  >
                         <div class="margen"></div>
 
                         <div class="col-lg-9 col-12 col-xs-12 col-sm-12 text-center titulo-nosotros ml-auto">
@@ -128,26 +128,35 @@
 
             <!-- Comienzo Locales -->
             <div id="Locales">
-                <div class="margen"></div>
-                <div class="col-12 text-center">
-                    <h2 class="heading">Servicios</h2>
-                    <h4 class="subtitulo">Haga click en alguno de nuestros servicios para más información</h4>
-                    <div class="heading-underline"></div>
-                </div>
-                <div class="row">
-                    <div class="col-3 panel-izq">                    
-                    <img class="pizarra" src="img/Modulos/pizarra.png" alt="img21"/>
+                
+                <div class="row contenedor-modulos">                   
+                    <div class="col-3 panel-izq  text-center align-items-center justify-content-center">
+                       
+                       <img class="logo-panel" src="img/LOGO%20AGORA%201-5.png" alt="img21"/>
+                        <div class="d-flex align-items-center justify-content-center"> 
+                            <img class="pizarra" src="img/Modulos/pizarra.png" alt="img21"/>
+                            <div class="centered justify-content-center text-center">
+                            <p>Seleccione uno de los distintos modulos</p>
+                            </div>
+                        </div>                 
+                        
                     </div>
+                   
+                    
                     <div class="row col-9 modulos">
                     <div class="row justify-content-around tarjetas1">  <!-- around -->             
 
                     <div class="col-md-6 col-sm-6 col-6 col-lg espacio">
                         <div class="no-paddingL">
+                           <a href="Espacios/Cafe/CafeAgora.html" style="text-decoration: none">
                             <div class="titulo text-center">
                                 <h2>Café <span>Ágora</span></h2>
                             </div>
-                            <div class="fondo-modulo">
+                            </a> 
+                            <div class="fondo-modulo ">
+                               <a href="Espacios/Cafe/CafeAgora.html">
                                 <img class="secciones" src="img/Modulos/cafe.png" alt="img21"/>
+                               </a>                                
                             </div>      
                             
                             
@@ -155,11 +164,15 @@
                     </div>    
                     <div class="col-md-6 col-sm-6 col-6 col-lg espacio">
                         <div class="no-paddingL">
+                           <a href="Espacios/italArte.html" style="text-decoration: none">
                             <div class="titulo text-center">
-                                <h2>Café <span>Ágora</span></h2>
+                                <h2>Ital' <span>Arte</span></h2>
                             </div>
-                            <div class="fondo-modulo">
-                                <img class="secciones" src="img/Modulos/arte.png" alt="img21"/>
+                            </a>
+                            <div class="fondo-modulo " >
+                               <a href="Espacios/italArte.html">
+                                <img class="secciones" src="img/Modulos/arte.png" alt="imgItalArte"/>
+                                </a> 
                             </div>      
                             
                             
@@ -168,11 +181,15 @@
 
                     <div class="col-md-6 col-sm-6 col-6 col-lg espacio">
                         <div class="no-paddingL">
+                           <a href="Espacios/academiaBaile.html" style="text-decoration: none">
                             <div class="titulo text-center">
-                                <h2>Café <span>Ágora</span></h2>
+                                <h2>Academia de Baile</h2>
                             </div>
+                            </a>
                             <div class="fondo-modulo">
-                                <img class="secciones" src="img/Modulos/baile.png" alt="img21"/>
+                               <a href="Espacios/academiaBaile.html">
+                                <img class="secciones" src="img/Modulos/baile.png" alt="imgBaile"/>
+                                </a>
                             </div>      
                             
                             
@@ -181,11 +198,15 @@
 
                     <div class="col-md-6 col-sm-6 col-6 col-lg espacio">
                         <div class="no-paddingL">
+                           <a href="Espacios/ballet.html" style="text-decoration: none">
                             <div class="titulo text-center">
-                                <h2>Café <span>Ágora</span></h2>
+                                <h2>Clases de Ballet</h2>
                             </div>
+                            </a>
                             <div class="fondo-modulo">
+                               <a href="Espacios/ballet.html">
                                 <img class="secciones" src="img/Modulos/ballet.png" alt="img21"/>
+                                </a>
                             </div>      
                             
                             
@@ -194,106 +215,97 @@
 
                     <div class="col-md-6 col-sm-6 col-6 col-lg espacio">
                         <div class="no-paddingL">
+                           <a href="Espacios/elizabethNailsBeauty.html" style="text-decoration: none">
                             <div class="titulo text-center">
-                                <h2>Café <span>Ágora</span></h2>
+                                <h2>Manicure</h2>
                             </div>
+                            </a>
                             <div class="fondo-modulo">
+                               <a href="Espacios/elizabethNailsBeauty.html">
                                 <img class="secciones" src="img/Modulos/Manicure.png" alt="img21"/>
+                                </a>
                             </div>      
                             
                             
                         </div> 
                     </div> 
                 </div>    
+                    <div class="row justify-content-around tarjetas2">  <!-- around -->             
 
-                <div class="row justify-content-around tarjetas2">
-                    <div class="col-md-6 col-sm-6 col-6 col-lg espacio">
+                    <div class="col-md-6 col-sm-6 col-6 col-lg espacio">                       
                         <div class="no-paddingL">
+                           <a href="Espacios/nutricionista.html" style="text-decoration: none">
                             <div class="titulo text-center">
-                                <h2><span>Nutricionista</span></h2>
+                                <h2>Nutricionista</h2>
                             </div>
-                            <figure class="effect-ming">
-                                <img src="img/Espacio/Nutricionista.png" alt="img21"/>
-                                <figcaption>    
-                                    <div class="texto-cartas">
-                                        <p>Cuida tu salud</p>
-                                    </div>
-                                    <a href="/Espacios/nutricionista.html">View more</a>
-                                </figcaption>			
-                            </figure>
+                            </a>
+                            <div class="fondo-modulo ">
+                                <img class="secciones" src="img/Modulos/nutricionista.png" alt="img21"/>
+                            </div>      
+                            
+                            
                         </div> 
-                    </div>
-
+                    </div>    
                     <div class="col-md-6 col-sm-6 col-6 col-lg espacio">
                         <div class="no-paddingL">
+                           <a href="Espacios/Inkasani.html" style="text-decoration: none">
                             <div class="titulo text-center">
-                                <h2>Quiropraxia <span>Inka</span></h2>
+                                <h2>Quiropraxia Inka</h2>
                             </div>
-                            <figure class="effect-ming">
-                                <img src="img/Espacio/Quiropractico.jpg" alt="img21"/>
-                                <figcaption>    
-                                    <div class="texto-cartas">
-                                        <p>Julia dances in the deep dark</p>
-                                    </div>
-                                    <a href="/Espacios/quiropractico.html">View more</a>
-                                </figcaption>    			
-                            </figure>
+                            </a>
+                            <div class="fondo-modulo " >
+                               <a href="Espacios/Inkasani.html">
+                                   <img class="secciones" src="img/Modulos/quiropraxia.png" alt="img21"/>
+                               </a>
+                                
+                            </div>      
+                            
+                            
                         </div> 
-                    </div>
+                    </div> 
 
                     <div class="col-md-6 col-sm-6 col-6 col-lg espacio">
                         <div class="no-paddingL">
                             <div class="titulo text-center">
-                                <h2><span>Psicología y Coaching</span></h2>
+                                <h2>Psicoligía y Coaching</h2>
                             </div>
-                            <figure class="effect-ming">
-                                <img src="img/Espacio/Psicologia.jpg" alt="img21"/>
-                                <figcaption>    
-                                    <div class="texto-cartas">
-                                        <p>Julia dances in the deep dark</p>
-                                    </div>
-                                    <a href="/Espacios/psicologo.html">View more</a>
-                                </figcaption>			
-                            </figure>
+                            <div class="fondo-modulo">
+                                <img class="secciones" src="img/Modulos/psicologia.png" alt="img21"/>
+                            </div>      
+                            
+                            
                         </div> 
-                    </div>
-
+                    </div> 
 
                     <div class="col-md-6 col-sm-6 col-6 col-lg espacio">
                         <div class="no-paddingL">
                             <div class="titulo text-center">
-                                <h2>Medicina <span>Holistica</span></h2>
-                            </div>       
-                            <figure class="effect-ming">
-                                <img src="img/Espacio/Medicina.jpg" alt="img21"/>
-                                <figcaption>    
-                                    <div class="texto-cartas">
-                                        <p>Julia dances in the deep dark</p>
-                                    </div>
-                                    <a href="/Espacios/medicinaHolistica.html">View more</a>
-                                </figcaption>			
-                            </figure>
+                                <h2>Medicina Holistica</h2>
+                            </div>
+                            <div class="fondo-modulo">
+                               <a href="Espacios/medicinaHolistica.html">
+                                <img class="secciones" src="img/Modulos/medicina_holistica.png" alt="img21"/>
+                                </a>
+                            </div>      
+                            
+                            
                         </div> 
-                    </div>
+                    </div> 
 
-                    <div class="col-md-6 col-sm-6 col-6 col-lg espacio">
+                    <div class="col-md-6 col-sm-6 col-6 col-lg espacio ">
                         <div class="no-paddingL">
-                            <div class="titulo text-center">
-                                <h2><span>Publicidad</span></h2>
-                            </div>     
-                            <figure class="effect-ming">
-                                <img src="img/galeria/galeria-8.jpg" alt="img21"/>
-                                <figcaption>    
-                                    <div class="texto-cartas">
-                                        <p>Fabricamos tus ideas</p>
-                                    </div>
-                                    <a href="/Espacios/publicidad.html">View more</a>
-                                </figcaption>			
-                            </figure>  
-                        </div>
-                    </div>
-
-                </div>
+                            <div class="titulo text-center ">
+                                <h2>Publicidad</h2>
+                            </div>
+                            <div class="fondo-modulo ">
+                                <img class="secciones" src="img/Modulos/mega.png" alt="img21"/>
+                            </div>      
+                            
+                            
+                        </div> 
+                    </div> 
+                </div> 
+                
                     </div>
                 </div>    
 
@@ -320,7 +332,7 @@
                         <div class="col-md-3 col-sm-6 col-6">
                             <div class="galeria">
                                 <a href="img/galeria/galeria-1.jpg" target="_blank">
-                                    <img src="/pruebaa.jpg">
+                                    <img src="pruebaa.jpg">
                                 </a>  
                             </div>
                         </div>
@@ -391,7 +403,8 @@
                 </div> <!-- Final del Jumbotron-->
             </div>
             <!-- Final Galeria -->
-            <div class="parallax-window-galeria" data-parallax="scroll" data-image-src="/img/galeria/fondo1.jpg" speed="0.1" data-bleed="50"> </div>
+            <!--
+            <div class="parallax-window-galeria" data-parallax="scroll" data-image-src="/img/galeria/fondo1.jpg" speed="0.1" data-bleed="50"> </div> -->
 
 
             <!-- Comienzo Ubicación -->
@@ -497,12 +510,31 @@
             <!-- Final Contacto Inicio -->
             <!-- Comienzo  Footer -->
             <footer>
-                <div class="row justify-content-center">
-                    <div class="col-md-5 text-center">
-                        <img src="img/LOGO%20AGORA%201-5.png">
-
-                    </div>
+               <div class="container footer-margin">
+                   <div class="row justify-content-center">
+                    <div class="col-md-3 text-center">
+                       <img class="Logo-footer" src="img/LOGO%20AGORA%201-5.png">
+                       <h3>ESPACIO AGORA</h3>
+                       
+                    </div> 
+                    
+                    <div class="col-md-3 text-center">
+                        <h3>Info Contacto</h3>
+                    </div> 
+                    
+                    <div class="col-md-3 text-center">
+                       <h3>Ubicación</h3>
+                    </div> 
+                    
+                    <div class="col-md-3 text-center">
+                       <h3>Horario Atención</h3>
+                    </div> 
+                                       
                 </div>
+               </div>
+                
+                
+                
             </footer>
 
 
@@ -517,7 +549,7 @@
 
         <!--- Script Source Files -->
         <script src="js/jquery-3.3.1.min.js"></script>
-        <script src="/parallax.js-1.5.0/parallax.js"></script>
+        <script src="parallax.js-1.5.0/parallax.js"></script>
         <script src="bootstrap-4.2.1-dist/js/bootstrap.min.js"></script>
         <script src="https://use.fontawesome.com/releases/v5.6.3/js/all.js"></script>
         <script src="js/boton.js"></script>
