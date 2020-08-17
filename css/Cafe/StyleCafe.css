@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Grand+Hotel');
 .checked {
-  color: orange;
+    color: orange;
 }
 .estrellas{
     margin-top: -10px;
@@ -46,15 +46,15 @@
     background: rgba(0, 0, 0, .2) !important;
     text-shadow:1px 3px 5px black;
     transition: all 0.8s;
-    
+
 }
 
 .on {
     display: flex;
-	background-color: rgba(0, 0, 0, 0.7) !important;   
-	padding: 0px 0px !important;
+    background-color: rgba(0, 0, 0, 0.7) !important;   
+    padding: 0px 0px !important;
     transition: all 0.8s;    
-    
+
 }
 .img-barra{ /*Imagen Barra sin bajar*/
     width: 120%; 
@@ -80,12 +80,12 @@
 .navbar-dark .navbar-nav .nav-link.active, /** Mouse encima y selección **/
 .navbar-dark .navbar-nav .nav-link:hover{
     color: #f4c95d !important;      
-    
+
 }
 
 /*--Slider--*/
 .carousel-item{ /*Tamaño de la imagen en toda la pantalla*/
-  height: 100vh;
+    height: 100vh;
 }
 
 
@@ -97,8 +97,8 @@
 .carousel-fade .carousel-item-next, 
 .carousel-fade .carousel-item-prev,
 .carousel-fade .carousel-item.active{
-  -webkit-transform: none;
- transform: none;
+    -webkit-transform: none;
+    transform: none;
 }
 
 
@@ -108,19 +108,60 @@
     color: #c49b63;
     top: 15%;
 }
+.pricing-entry .text:after {
+    position: absolute; 
+    bottom: 35%;
+    left: 0;
+    right: 0;
+    content: '';
+    margin-left: 50px;
+    width: 80% !important;
+    height: 1px;
+    border-bottom: 1px dashed #674c27;
+    z-index: -1; }
+.menu-padd
+{
+    padding: 4px;
+}
+.prueba{
+    width: 85% !important;
+    box-sizing: content-box !important;
+    position:absolute;
+    right:0;
+}
+.menu-extra-border-top{
+    border-color: #c49b63;
+    border-style: solid;
+    border-width: 1px 1px 0px 1px;
+}
+.menu-extra-border-bottom{
+    border-color: #c49b63;
+    border-style: solid;
+    border-width: 0 1px 1px 1px;
+}
 #menu{
-    
+
     /*background-image: url("../../images/madera5.jpg");*/
     background-attachment: fixed;   
     background-size: 100%;
 }
+.panini
+{
+
+    margin-bottom: 48px !important;
+}
+.pricing-entry .prueba .menu-extra-border-top .text::after
+{
+
+}
 .carousel-caption h5{
     font-size: 80px;
-    display: block;
     font-family: "Great Vibes", cursive;
     color: #f4c95d;
     line-height: 1;    
     z-index: 1;    
+    display: flex;
+    justify-content: center;
 }
 .carousel-caption h4{    
     font-size: 18px;
@@ -137,10 +178,47 @@
     font-size: 35px;
     letter-spacing: 1px;
 }
+.gs
+{
+    color: #120F0F !important;
+}
 .carousel-indicators li{
     width: 8px !important;
     height: 8px !important;
     border-radius: 100% !important;
     margin: 120px 5px !important;
-    
+
+}
+
+@media (max-width: 767px){
+
+    .carousel-indicators li{
+        width: 8px !important;
+        height: 8px !important;
+        border-radius: 100% !important;
+        margin: 0px 5px !important;
+
+    }
+    .pricing-entry .text:after {
+        position: absolute;    
+        bottom: 35%;
+        left: 10;
+        right: 0;
+        content: '';
+        margin-left: 10px;
+        width: 80% !important;
+        height: 1px;
+        border-bottom: 1px dashed #674c27;
+        z-index: -1; }
+    .prueba{
+        width: 100% !important;
+        box-sizing: content-box !important;
+        position:absolute;
+        right:0;
+    }
+    .panini
+    {
+
+        margin-bottom: 120px !important;
+    }
 }

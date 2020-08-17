@@ -237,7 +237,7 @@ h4.subtitulo{
     -moz-box-shadow:    inset 0px 15px 20px rgba(0, 0, 0, 0.4);
     box-shadow:         inset 0px 5px 20px rgba(0, 0, 0, 0.4),inset 0px -5px 20px rgba(0, 0, 0, 0.4);
     
-    background-image: url("https://i.imgur.com/WFEtCe4.jpg");
+    background-image: url("../img/BG/madera2.jpg");
     background-position: 28% 0%;
     background-repeat: repeat; 
     background-size: 30%;    
@@ -609,11 +609,15 @@ footer{
 
 @media (min-width: 768px) and (max-width: 1299px){
     .navbar{
-        border: 15px solid transparent;    
-        font-family: 'Lobster', cursive;
+        border: 15px solid transparent;   
         font-size: 19px;    
         letter-spacing: 3px; 
     }
+    .container{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
     #Ubicacion .padding-local{
         padding: 0px 30px;    
     }
